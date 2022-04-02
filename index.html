@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Guilherme Dunguel">
+   <meta name="description" content="Guilherme Dunguel é um Desenvolvedor Web Front-End que está estudando JavaScript, React e pretende estudar TypeScript, NextJS e Python.">
+   <meta property="og:title" content="Guilherme Dunguel - Desenvolvedor Front-End">
+   <meta property="og:description" content="Guilherme Dunguel é um Desenvolvedor Web Front-End que está estudando JavaScript, React e pretende estudar TypeScript, NextJS e Python.">
+   <meta property="og:image" content="assets/style-assets/opengraphimage.jpg">
+   <meta property="og:url" content="https://guilhermedunguel.com/">
+   <meta name="keywords" content="Guilherme Dunguel, Dev Front-End, HTML, CSS, JavaScript">
+   <meta name="robots" content="index, follow"/>
+   <link rel="shortcut icon" href="assets/style-assets/favicon.png" type="image/x-icon">
+   <script src="scripts/projectsAPI.js" defer></script>
+   <script src="scripts/burger-menu.js" defer></script>
+   <script src="scripts/carousel-script.js" defer></script>
+   <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="styles/reset.css">
+   <title>Guilherme Dunguel - Desenvolvedor Front-End</title>
+</head>
+<body>
+   <header>
+      <div class="burger-menu">
+         <button onclick="openMenu()" class="menu-button"><img id="burger-icon" src="assets/header-icons/menu-icons/burger-menu-opened.svg" alt="burger-menu"></button>
+      </div>
+      <div class="menu-active">
+         <a href="#home-section"><img src="assets/header-icons/home-solid.svg" alt="Ícone de uma casa, referenciando a seção principal"></a>
+         <a href="#about-section"><img src="assets/header-icons/user-alt-solid.svg" alt="Ícone de um busto, referenciando a seção sobre"></a>
+         <a href="#projects-section"><img src="assets/header-icons/layer-group-solid.svg" alt="ícone de três folhas, uma acima da outra, simbolizando uma camada, referênciando a seção de projetos"></a>
+         <a href="#contact-section"><img src="assets/header-icons/envelope-solid.svg" alt="Ícone de um envelope de carta, referenciando a seção de contato"></a>
+      </div>
+   </header>
+   <main>
+      <section id="home-section">
+         <div class="home-itens">
+            <div class="apresentation">
+               <h1>Guilherme Dunguel</h1>
+               <p>Desenvolvedor Front-End</p>
+               <div class="apresentation-buttons">
+                  <button class="project-button apr-button"><a href="#projects-section">Projetos</a></button>
+                  <button class="network-button apr-button"><a href="https://socialtree-omega.vercel.app" target="blank_">Minhas redes</a></button>
+               </div>
+            </div>
+            <img class="profile-picture" src="assets/style-assets/guilherme-profile.webp" alt="Uma foto de apresentação do Guilherme vestindo uma blusa preto e branca olhando diretamente para a câmera.">
+         </div>
+         <div class="home-section-bg-itens">
+            <img class="left-mini-balls"src="assets/style-assets/mini-balls.webp" alt="Pequenas bolinhas alinhadas uma ao lado da outra compondo o fundo do site">
+            <img class="right-mini-balls" src="assets/style-assets/mini-balls.webp" alt="Pequenas bolinhas alinhadas uma ao lado da outra compondo o fundo do site">
+            <img class="yellow-wave-left" src="assets/style-assets/yellowwave1.webp" alt="Ondas em formato de vetores de cor amarela compondo o fundo do site">
+            <img class="yellow-wave-reduced-left" src="assets/style-assets/wave-reduced.webp" alt="Ondas em formato de vetores de cor amarela compondo o fundo do site">
+            <img class="yellow-wave-right" src="assets/style-assets/yellowwave2.webp" alt="Ondas em formato de vetores de cor amarela compondo o fundo do site">
+         </div>
+      </section>
+      <section id="about-section">
+         <section class="about-technologies">
+               <div class="tech-background tech-html">
+                  <img src="assets/tech-icons/HTML_icon.webp" alt="Imagem representando a logo do HTML">
+               </div>
+               <div class="tech-background tech-css">
+                  <img src="assets/tech-icons/CSS_icon.webp" alt="Imagem representando a logo do CSS">
+               </div>
+               <div class="tech-background tech-javascript">
+                  <img src="assets/tech-icons/JS_icon.webp" alt="Imagem representando a logo do JavaScript">
+               </div>
+               <div class="tech-background tech-sass">
+                  <img src="assets/tech-icons/SASS_icon.webp" alt="Imagem representando a logo do Sass">
+               </div>
+               <div class="tech-background tech-react">
+                  <img src="assets/tech-icons/REACT_icon.webp" alt="Imagem representando a logo do React">
+               </div>
+         </section>
+         <section class="about-me">
+            <div class="about-element who-is-guilherme">
+               <img src="assets/about-icons/user-icon-about.webp" alt="Ícone de uma pessoa dentro de uma bola, simbolizando a aba 'Quem é Guilherme?'">
+               <h2>Quem é Guilherme?</h2>
+               <p>Desde pequeno sempre gostei de tecnologia. Em 2021 me descobri na área e comecei meus estudos em agosto. Desde então venho fazendo projetos pessoais totalmente focados em Desenvolvimento Web</p>
+            </div>
+            <div class="about-element my-future">
+               <img src="assets/about-icons/rocket-icon-about.webp" alt="ícone de um foguete dentro de uma bola, simbolizando a aba de 'Meu futuro">
+               <h2>Meu futuro</h2>
+               <p>Espero, no futuro, poder contribuir na diferença da tecnologia e impactar diretamente na usabilidade de Aplicações Web.</p>
+            </div>
+            <div class="about-element my-objectives">
+               <img src="assets/about-icons/target-icon-about.webp" alt="ícone de um alvo dentro de uma bola, simbolizando a aba de 'Meus objetivos">
+               <h2>Meus objetivos</h2>
+               <p>Atualmente focando os estudos em JavaScript e ReactJS, pretendo melhorar meus conhecimentos de Web, futuramente estudar TypeScript e NextJS. também pretendo estudar Python para fazer algumas automações.</p>
+            </div>
+         </section>
+      </section>
+      <section id="projects-section">
+      </section>
+      <section id="contact-section">
+         <section class='contact-items-section'>
+            <div class="contact-item location-item">
+               <img src="assets/contact-icons/location.svg" alt="">
+               <h2>LOCALIZAÇÃO</h2>
+               <p>Campo Grande, Rio de Janeiro, RJ</p>
+            </div>
+            <div class="contact-item email-item">
+               <img src="assets/contact-icons/email.svg" alt="">
+               <h2>EMAIL</h2>
+               <p>guilhermedunguel@gmail.com</p>
+            </div>
+            <div class="contact-item phone-item">
+               <img src="assets/contact-icons/phone.svg" alt="">
+               <h2>WHATSAPP</h2>
+               <p>(+55) 21 98794-3315</p>
+            </div>
+         </section>
+         <div class='contact-background'>
+            <img class="contact-bg-item bottom-wave-left" src="assets/style-assets/yellowwave3.webp" alt="">
+            <img class="contact-bg-item bottom-wave-right" src="assets/style-assets/yellowwave4.webp" alt="">
+            <img class="contact-bg-item bottom-left-mini-balls" src="assets/style-assets/mini-balls.webp" alt="">
+            <img class="contact-bg-item bottom-right-mini-balls" src="assets/style-assets/mini-balls.webp" alt="">
+         </div>
+      </section>
+      <footer>
+         <div class="copyright-div">
+            <p class="copyright-item">&copy; Copyright 2022</p>
+            <p class="copyright-item">Feito com &#128155; por Guilherme Dunguel</p>
+         </div>
+         <div class="back-to-top-button-div">
+            <button class="back-to-top-button"><a href="#home-section"><img src="assets/contact-icons/back-to-top-arrow.svg" alt="Flecha que te leva ao topo da página"></a></button>
+         </div>
+      </footer>
+   </main>
+</body>
+</html>
