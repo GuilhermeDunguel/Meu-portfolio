@@ -10,6 +10,7 @@ function getAPI() {
       data.map(project => {
          const locateDiv = document.querySelector('#projects-section')
          if(project.name != 'guilhermedunguel'){
+            console.log(project.name)
             locateDiv.innerHTML += `
          <div class='project-div ${project.name}-div'>
             <h2 id="projectname">${project.name.replace('-', ' ').replace('-', ' ')}<h2>
