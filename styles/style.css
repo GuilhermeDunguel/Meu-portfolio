@@ -199,21 +199,6 @@ header {
     width: 400px;
   }
 }
-@media (max-height: 560px) {
-  .home-itens .profile-picture {
-    width: 300px;
-  }
-}
-@media (max-height: 460px) {
-  .home-itens .profile-picture {
-    width: 200px;
-  }
-}
-@media (max-height: 460px) {
-  .home-itens .profile-picture {
-    width: 100px;
-  }
-}
 .home-itens .apresentation h1 {
   font-style: italic;
   font-weight: 900;
@@ -455,6 +440,10 @@ header {
 }
 #projects-section .Detector-de-idades-div {
   background-image: url("../assets/repositoryImages/Detector-de-idades.jpg");
+  background-size: 550px 600px;
+}
+#projects-section .Feedback-Widget-div {
+  background-image: url("../assets/repositoryImages/Feedback-Widget.jpg");
   background-size: 550px 600px;
 }
 #projects-section #project-bg {
